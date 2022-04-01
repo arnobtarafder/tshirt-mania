@@ -6,3 +6,6 @@ nav a{
 nav a:hover{
     color: rgb(72, 146, 122);
 }
+nav {
+    margin-bottom: 71px;
+}

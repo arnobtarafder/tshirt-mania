@@ -24,10 +24,10 @@ const Cart = ({cart, handleRemoveFromCart}) => {
             const admin = false;
     return (
         <div>
-            <h3>Item Selected: {cart.length}</h3>
+            <h2>Item Selected: {cart.length}</h2>
             {command}
             {
-                cart.map(tshirt => <p>
+                cart.map(tshirt => <p className='cart'>
                     {tshirt.name}
                     <button onClick={() => handleRemoveFromCart(tshirt)}>Remove</button>
                     

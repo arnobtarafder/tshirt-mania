@@ -6,9 +6,12 @@ const TShirt = ({tshirt, handleAddToCart}) => {
     return (
         <div className='t-shirt'>
             <img src={picture} alt="" />
-            <h4>Name: {name}</h4>
+            <h4>{name}</h4>
             <p>Price: {price}</p>
+            
+            <div className="button">
             <button onClick={() => handleAddToCart (tshirt)}>Add to Cart</button>
+            </div>
         </div>
     );
 };

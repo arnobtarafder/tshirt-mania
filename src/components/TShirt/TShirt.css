@@ -6,3 +6,10 @@
 .t-shirt img {
     height: 250px;
 }
+.t-shirt button {
+    background-color: rgb(235, 222, 205);
+    width: 70%;
+    height: 31px;
+    margin-top: 27px;
+    border-radius: 17px;
+}
