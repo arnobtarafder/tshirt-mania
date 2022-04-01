@@ -7,9 +7,9 @@ import Uncle from '../Uncle/Uncle';
 /**
 *  context api
 * 1. Call createContext with a default value
-* 2. Set a variable of the context to use it in other places
+* 2. Set a variable of the context with uppercase
 * 3. Make sure you export the context to use it in other places
-* 4. Wrap you child content using ConstantContextName.Provider
+* 4. Wrap your child content using ConstantContextName.Provider
 * 5. Provide a value
 * 6. To consume the context from child component 
 * 7. useContext hook and you will need to pass the contextName

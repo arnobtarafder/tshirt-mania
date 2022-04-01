@@ -21,6 +21,7 @@ const Cart = ({cart, handleRemoveFromCart}) => {
     else{
         command = <p><small>Thanks for adding item</small></p>
     }
+            const admin = false;
     return (
         <div>
             <h3>Item Selected: {cart.length}</h3>
@@ -45,8 +46,11 @@ const Cart = ({cart, handleRemoveFromCart}) => {
 
             { cart.length !== 4 ? <p>Keep Adding</p> : <button>Remove All</button> }
 
+   {/* { admin ? "You are special" :  "You are genius" } */}
 
-         <br /><br />   <marquee behavior="" direction="left">            {command}</marquee>
+
+         <br /><br />   
+         <marquee behavior="" direction="left"> {command} </marquee>
         </div>
     );
 };
