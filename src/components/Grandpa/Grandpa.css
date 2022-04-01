@@ -3,6 +3,7 @@
      padding: 7px;
      margin: 11px 17px;
 }
-/* .grandpa {
-    display: flex;
-} */
+.grandpa p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
