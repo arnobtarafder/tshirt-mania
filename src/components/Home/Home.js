@@ -27,7 +27,6 @@ const Home = () => {
     return (
         <div className='home-container'>
             <div className="tshirt-container">
-                {/* <h3>{tshirts.length}</h3> */}
 
                 {
                     tshirts.map(tshirt => <TShirt
